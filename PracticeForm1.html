@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PracticeForm1.css">
+</head>
+<body>
+<form class="form">
+    <!-- <div class="div"> -->
+        <table class="table">
+            <tr><td><label name="name"> Name :</label></td>
+            <td><input type="text" name="name" placeholder="your name"><br><br></td></tr>
+            
+            <tr><td><label name="email"> Email :</label></td>
+            <td><input type="email" name="email" placeholder="your email"><br><br></td></tr>
+            
+            <tr><td><label name="pass"> Password :</label></td>
+            <td><input type="password" name="pass"><br><br></td></tr>
+            
+            <tr><td><label name="phone"> Phone Number :</label></td>
+            <td><input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10"><br><br></td></tr>
+
+            <tr><td><label name="gender"> Gender :</label></td>
+            <td><input type="radio" name="gender" value="Male">
+                <label name="Male"> Male </label>
+                <input type="radio" name="gender" value="Female">
+                <label name="Female"> Female </label> <br><br>
+            </td></tr>
+
+            <tr><td><label name="language"> Language :</label></td>
+            <td><select name="language">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Marathi">Marathi</option> <br><br>
+            </td></tr>
+
+            <tr><td><label for="zip">Zip Code :</label></td>
+            <td><input type="text" id="zip" name="zip"></td></tr><br><br>
+
+            <tr><td><label for="about">About:</label></td>
+            <td><textarea id="about" name="about" placeholder="write about yourself"></textarea></td></tr><br><br>
+
+            <tr><td colspan="2"><input type="submit" value="Register" style="margin-left: 130px; font-size: 20px;"></td></tr><br>
+
+        </table>
+    <!-- </div> -->
+</form>
+</body>
+</html>
+

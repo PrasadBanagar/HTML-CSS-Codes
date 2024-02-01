@@ -1,0 +1,34 @@
+h1 {
+    color: greenyellow;
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    color: lightgreen;
+}
+
+.C1 {
+    background-color: black;
+    color: cyan;
+}
+
+.C2 {
+    background-color: darkblue;
+    color: yellow;
+}
+
+.C3 {
+    background-color: black;
+    color: pink;
+}
+
+.C4 {
+    background-color: darkred;
+    color: greenyellow;
+}
+
+.C5 {
+    background-color: black;
+    color: lightsalmon;
+}

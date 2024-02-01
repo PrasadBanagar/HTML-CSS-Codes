@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AssignmentForms.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+    
+    <form action="Thankyou.html" method="post">
+    <div class="class1"> <br>
+
+        <label name="fname"> First Name :</label>
+        <input type="text" name="fname"><br><br>
+        <label name="Mname"> Middle Name :</label>
+        <input type="text" name="Mname"><br><br>
+        <label name="lname"> Last Name :</label>
+        <input type="text" name="lname"><br><br>
+
+        <label name="Course"> Choose a Course :</label>
+        <select name="Course">
+            <option value="FSD-JAVA">FSD-JAVA</option>
+            <option value="Testing">Testing</option>
+            <option value="DataScience">Data Science</option>
+            <option value="CyberSecurity">Cyber Security</option>
+        </select> <br><br>
+        <label name="gender"> Gender : </label>
+        <input type="radio" name="gender" value="Male">
+        <label name="Male"> Male </label>
+        <input type="radio" name="gender" value="Female">
+        <label name="Female"> Female </label> <br><br>
+
+        <label name="phone"> Phone : </label>
+        <input type="tel" name="phone" value="+91" maxlength="3" width="2" size="2">
+        <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10" placeholder="Phone no"><br><br>
+
+        <label name="Address"> Address :</label><br>
+        <textarea name="Address" rows="5" cols="80"></textarea><br><br>
+
+        <label name="Email"> Email: </label>
+        <input name="Email" type="email"><br><br>
+        <label name="passw">Password: </label>
+        <input name="passw" type="password"><br><br>
+        <label name="repassw">Re-type Password: </label>
+        <input name="repassw" type="password"><br><br>
+
+    
+        <input type="submit">  <input type="reset">  
+
+    </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 300;
+    font-style: italic;
+    font-variant: small-caps;
+
+}
+
+.text {
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-decoration: overline;
+    vertical-align: bottom;
+    text-align: justify;
+    text-indent: 100px;
+    text-transform: capitalize;
+}
+
+.border {
+    border: 8px inset greenyellow;
+    text-shadow: 4px 4px darkolivegreen;
+    box-shadow: 12px 12px darkolivegreen;
+    width: 1200px;
+    margin-left: 125px;
+    padding: 25px;    
+}

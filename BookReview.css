@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    font-weight: 1000;
+    font-variant: small-caps;
+}
+
+#it {
+    border: 2px inset yellow;
+    width: 60%;
+    margin-left: 250px;
+    padding: 25px;    
+    color: white;
+    
+}
+
+#img {
+    height: 400px;
+    float: left;
+}
+
+.p {
+    clear: right;
+    padding-left: 280px;
+}
